@@ -1,0 +1,32 @@
+{
+  "name": "eth-balance-tracker",
+  "version": "2.0.0",
+  "description": "A TypeScript tool to track Ethereum mainnet block numbers and retrieve USDT balance for a specified address.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/Anas-Alfaihan/eth-balance-tracker"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "web3",
+    "Ethereum"
+  ],
+  "author": "anas989",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "web3": "^4.6.0"
+  }
+}
